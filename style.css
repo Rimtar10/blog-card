@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+.image{
+    border-radius: 6%;
+}
+
+.white-box{
+    background-color: white;
+    padding: 20px;
+    padding-right: 28px;
+    border-radius: 6%;
+    display: inline-block;
+    border-color: black;
+    border: 1.5px solid black;
+    box-shadow: inset -10px 0px 0px 0px #000000;
+}
+
+.h1{
+    font-size: 27px;
+}
+
+img{
+    height: 45px;
+}
+
+.greg{
+        display: flex; /* This will make the children of .greg side by side */
+        align-items: center; /* This will vertically center the children */
+    
+}
+
+.greg img{
+    margin-right: 15px;
+}
+
+.learning{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: hsl(47, 88%, 63%);
+    display: block;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
